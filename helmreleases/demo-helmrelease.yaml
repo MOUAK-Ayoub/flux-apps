@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: ./k8s/demo
-      reconcileStrategy: ChartVersion
+      reconcileStrategy: Revision
       sourceRef:
         kind: GitRepository
         name: demo-chart
