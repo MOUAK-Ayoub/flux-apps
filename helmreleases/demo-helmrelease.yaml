@@ -12,4 +12,4 @@ spec:
       sourceRef:
         kind: GitRepository
         name: demo-chart
-  interval: 20s
+  interval: 30s
